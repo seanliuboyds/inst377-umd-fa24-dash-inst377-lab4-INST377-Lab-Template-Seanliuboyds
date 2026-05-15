@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab 4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="main-heading">Lab 4</h1>
+
+    <div class="row">
+        <div class="section">
+            <h2>Alert Me Section</h2>
+            <form onsubmit="alertMe(event)">
+                <input type="text" id="nameInput" required>
+                <button type="submit">Alert Me</button>
+            </form>
+        </div>
+
+        <div class="section">
+            <h2>Change Color Section</h2>
+            <button onclick="changeColor()">Change Color</button>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="section">
+            <h2>Text Tester Section</h2>
+            <form onsubmit="validateText(event)">
+                <input type="text" id="textTesterInput">
+                <button type="submit">Validate Text</button>
+            </form>
+        </div>
+
+        <div class="section">
+            <h2>Add Text Section</h2>
+            <button onclick="addText()">Add Text</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

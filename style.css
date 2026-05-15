@@ -1,0 +1,19 @@
+body {
+    background-color: lightblue;
+    font-family: sans-serif;
+    padding: 20px;
+}
+.row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+.section {
+    border: 2px solid black;
+    padding: 15px;
+    background-color: white;
+    flex: 1;
+}
+h2 {
+    margin-top: 0;
+}
